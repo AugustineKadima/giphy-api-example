@@ -1,0 +1,6 @@
+<p>giphy works!</p>
+
+<div *ngFor=" let gif of gifs">
+    <img [src]="gif.images.downsized.url" alt="">
+    <h6>{{gif.title}}</h6>
+</div>
